@@ -1,0 +1,10 @@
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card-column {
+    flex: 0 0 50%; /* Each column takes up 50% of the container */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    padding: 10px; /* Adjust as needed */
+  }
